@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:movies/components/my_provider.dart';
 import 'package:movies/components/observer.dart';
 import 'package:movies/views/browse/widgets/movies_by_genres_view.dart';
-
 import 'package:movies/views/home/views/home_view.dart';
 import 'package:movies/views/movie_detail/views/movie_detail_view.dart';
 import 'package:movies/views/splash/splash_view.dart';

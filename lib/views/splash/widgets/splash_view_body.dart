@@ -19,18 +19,14 @@ class _SplashViewBodyState extends State<SplashViewBody> {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Container(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-             Spacer(),
-            Image.asset('assets/images/logo.png'),
-            Image.asset('assets/images/route-logo.png'),
-          ],
+    return Scaffold(
+      backgroundColor: Color(0xff000000),
+      body: Expanded(
+        child: Center(
+          child: Image.asset('assets/images/logo.png'),
         ),
       ),
+
     );
   }
 
