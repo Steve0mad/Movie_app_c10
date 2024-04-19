@@ -31,7 +31,7 @@ class _SplashViewBodyState extends State<SplashViewBody> {
   }
 
   void navigateToHome() {
-    Future.delayed(const Duration(seconds: 3), () {
+    Future.delayed ( Duration(seconds: 3), () {
       Navigator.pushNamedAndRemoveUntil(
           context, HomeView.routeName, (route) => false);
     });
